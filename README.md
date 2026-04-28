@@ -1,15 +1,15 @@
-# Reddit Shorts Maker 🤖🎬
+# Reddit Shorts Maker 
 
 An automated pipeline to transform Reddit stories into high-quality YouTube Shorts with AI-generated metadata, TTS, and automatic scheduling.
 
-## 🌟 Features
+##  Features
 - **AI Summary**: Uses Gemini to generate catchy folder names and YouTube metadata.
 - **Dynamic Captions**: Absolute word-level sync using OpenAI Whisper.
 - **Natural Voice**: High-quality TTS via Edge-TTS.
 - **Smart Splitting**: Automatically splits long stories into Part 1, Part 2, etc.
 - **Auto-Upload**: Genuine YouTube API integration with automatic 6-hour scheduling.
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Prerequisites
 - Python 3.10+
@@ -34,12 +34,12 @@ Place your story in the `input/` folder (requires a `.txt` file and an image) an
 python run.py --upload --part-duration 58
 ```
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **MoviePy**: Video compositing.
 - **OpenAI Whisper**: Transcription.
 - **Edge-TTS**: Voice generation.
 - **Google Gemini**: AI logic.
 - **Google API**: YouTube automation.
 
-## 📜 License
+##  License
 MIT
