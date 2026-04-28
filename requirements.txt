@@ -1,0 +1,12 @@
+edge-tts
+openai-whisper
+torch
+imageio-ffmpeg
+moviepy
+numpy
+pillow
+requests
+decorator
+google-api-python-client
+google-auth-oauthlib
+google-auth-httplib2

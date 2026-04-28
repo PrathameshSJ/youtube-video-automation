@@ -1,0 +1,18 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Project Specific
+output_cache/
+output/
+input/*
+!input/.gitkeep
+
+# Secrets & Credentials
+.env
+client_secrets.json
+token.pickle
+
+# MoviePy/Temp
+*TEMP_MPY*
